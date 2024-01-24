@@ -35,21 +35,17 @@ export default function ContactMe(props) {
               href="mailto:alihinnawe.jobs@gmail.com"
               style={{ color: "white", textDecoration: "none" }}
             >
-              <h1 style={{ color: "white", cursor: "pointer" }}>
+              <h2 style={{ color: "white", cursor: "pointer" }}>
                 alihinnawe.jobs@gmail.com
-              </h1>
+              </h2>
             </a>
-            <img src={imgBack} alt="image not found" />
+            {/* <img src={imgBack} alt="image not found" /> */}
           </div>
-          <form>
-            <Typical
-              loop={Infinity}
-              steps={[
-                "Ready to make my inbox do the happy dance? Click on the email - my form is still rocking the PJs! 📧 😎",
-                1000,
-              ]}
-            />
-          </form>
+          {/* <h3 style={{ color: "white", cursor: "pointer" }}>
+            Attention: My email form is currently taking a nap in its
+            construction zone! 😴🚧 But fear not, you can still reach me by
+            clicking the email. 📧 😎
+          </h3> */}
         </div>
         <Footer />
       </div>
