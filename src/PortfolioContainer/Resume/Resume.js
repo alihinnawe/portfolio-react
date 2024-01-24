@@ -220,7 +220,7 @@ const Resume = (props) => {
       >
         <img
           className="bullet-logo"
-          src={require(`../../assets/Resume/${bullet.logoSrc}`)}
+          src={require(`../../assets/Resume/${bullet.logoSrc}`).default}
           alt="B"
         />
         <span className="bullet-label">{bullet.label}</span>
