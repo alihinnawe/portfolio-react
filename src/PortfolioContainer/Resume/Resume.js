@@ -64,18 +64,10 @@ const Resume = (props) => {
 
   const projectsDetails = [
     {
-      title: "Tourio App",
-      duration: { fromDate: "6. 2023", toDate: "7. 2023" },
-      description:
-        " The best friend of all travelers: it displays sights you want to visit and lets you edit them.",
-      subHeading: "Technologies Used:  Html, Css, JavaScript",
-    },
-    {
-      title: "Rick and Morty App",
-      duration: { fromDate: "7. 2023", toDate: "8. 2023" },
-      description:
-        " Create a single page app for browsing all the characters of the famous tv show Rick and Morty",
-      subHeading: "Technologies Used:  ,Html, Css, JavaScript, React",
+      title: "portfolio-react ",
+      duration: { fromDate: "12.2023", toDate: "01.2024" },
+      description: "Building my portfolio with React",
+      subHeading: "Technologies Used:  HTML, CSS, React",
     },
     {
       title: "AID-LINGUA-AI-NEWS ",
@@ -83,6 +75,28 @@ const Resume = (props) => {
       description:
         "A user-friendly web application for the AID-LINGUA-AI-NEWS newsletter, catering to individuals with accessibility needs.",
       subHeading: "Technologies Used:  React , Mongo DB, Node Js",
+    },
+    // {
+    //   title: "Rick and Morty App",
+    //   duration: { fromDate: "7. 2023", toDate: "8. 2023" },
+    //   description:
+    //     " Create a single page app for browsing all the characters of the famous tv show Rick and Morty",
+    //   subHeading: "Technologies Used:  HTML, CSS, JavaScript, React",
+    // },
+    {
+      title: "Weather & Activities App",
+      duration: { fromDate: "8.2023", toDate: "8.2023" },
+      description:
+        "An app that fetches a weather object from an API and conditionally picks activities from a list to display as suggestions",
+      subHeading: "Technologies Used:  HTML, CSS, JavaScript",
+    },
+
+    {
+      title: "Tourio App",
+      duration: { fromDate: "6. 2023", toDate: "7. 2023" },
+      description:
+        " The best friend of all travelers: it displays sights you want to visit and lets you edit them.",
+      subHeading: "Technologies Used:  HTML, CSS, JavaScript",
     },
   ];
 
