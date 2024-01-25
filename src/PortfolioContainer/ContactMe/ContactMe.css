@@ -102,3 +102,14 @@ form p {
     font-size: 16px;
   }
 }
+
+.email-text {
+  color: white;
+  cursor: pointer;
+  transition: font-size 0.3s, color 0.3s;
+}
+
+.email-link:hover .email-text {
+  font-size: 24px;
+  color: orange;
+}

@@ -31,13 +31,8 @@ export default function ContactMe(props) {
         </div>
         <div className="back-form">
           <div className="img-back">
-            <a
-              href="mailto:alihinnawe.jobs@gmail.com"
-              style={{ color: "white", textDecoration: "none" }}
-            >
-              <h2 style={{ color: "white", cursor: "pointer" }}>
-                alihinnawe.jobs@gmail.com
-              </h2>
+            <a href="mailto:alihinnawe.jobs@gmail.com" className="email-link">
+              <h2 className="email-text">alihinnawe.jobs@gmail.com</h2>
             </a>
 
             {/* <img src={imgBack} alt="image not found" /> */}
