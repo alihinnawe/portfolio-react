@@ -11,10 +11,10 @@ export default function Profile() {
           <div className="colz">
             <div className="colz-icon">
               <a href="https://www.linkedin.com/in/ali-hinnawe/">
-                <i className="fa fa-linkedin" />
+                <i className="fa fa-linkedin" id="orango" />
               </a>
               <a href="https://github.com/alihinnawe/">
-                <i className="fa fa-github" id="githubo" />
+                <i className="fa fa-github" id="orango" />
               </a>
             </div>
           </div>

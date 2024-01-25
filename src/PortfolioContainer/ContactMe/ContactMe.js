@@ -39,16 +39,30 @@ export default function ContactMe(props) {
                 alihinnawe.jobs@gmail.com
               </h2>
             </a>
+
             {/* <img src={imgBack} alt="image not found" /> */}
           </div>
-          {/* <h3 style={{ color: "white", cursor: "pointer" }}>
-            Attention: My email form is currently taking a nap in its
-            construction zone! 😴🚧 But fear not, you can still reach me by
-            clicking the email. 📧 😎
-          </h3> */}
         </div>
+
         <Footer />
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <p>
+        I acquired the skills to implement this webpage through a comprehensive
+        Udemy course led by
+        <a
+          style={{ color: "orange", cursor: "pointer" }}
+          href="https://www.udemy.com/course/the-ultimate-react-js-responsive-portfolio-website/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          &nbsp; Ehizeex Okwuose
+        </a>
+        , an esteemed instructor in the field of software development.
+      </p>
     </div>
   );
 }
