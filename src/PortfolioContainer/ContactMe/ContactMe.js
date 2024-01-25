@@ -50,7 +50,7 @@ export default function ContactMe(props) {
       <br></br>
       <br></br>
       <br></br>
-      <p>
+      <p style={{ textAlign: "center" }}>
         I acquired the skills to implement this webpage through a comprehensive
         Udemy course led by
         <a
@@ -61,7 +61,10 @@ export default function ContactMe(props) {
         >
           &nbsp; Ehizeex Okwuose
         </a>
-        , an esteemed instructor in the field of software development.
+        , an esteemed instructor in the field of software development. Inspired
+        by this learning experience, I am excited to challenge myself by
+        building a new webpage with a different design, applying the valuable
+        insights gained from the course.
       </p>
     </div>
   );
